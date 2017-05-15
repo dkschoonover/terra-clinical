@@ -1,0 +1,49 @@
+exports[`Snapshots renders a basic search bar 1`] = `
+<div
+  className="field-input terra-SearchBar">
+  <input
+    className="terra-SearchBar-input"
+    onChange={[Function]}
+    placeholder=""
+    type="search"
+    value="" />
+  <Button
+    className="terra-SearchBar-button"
+    isBlock={false}
+    isCompact={false}
+    isDisabled={false}
+    isReversed={false}
+    onClick={[Function]}
+    variant="default">
+    <IconSearch
+      data-name="Layer 1"
+      viewBox="0 0 48 48"
+      xmlns="http://www.w3.org/2000/svg" />
+  </Button>
+</div>
+`;
+
+exports[`Snapshots renders a search bar with a placeholder 1`] = `
+<div
+  className="field-input terra-SearchBar">
+  <input
+    className="terra-SearchBar-input"
+    onChange={[Function]}
+    placeholder="Test"
+    type="search"
+    value="" />
+  <Button
+    className="terra-SearchBar-button"
+    isBlock={false}
+    isCompact={false}
+    isDisabled={false}
+    isReversed={false}
+    onClick={[Function]}
+    variant="default">
+    <IconSearch
+      data-name="Layer 1"
+      viewBox="0 0 48 48"
+      xmlns="http://www.w3.org/2000/svg" />
+  </Button>
+</div>
+`;

@@ -1,0 +1,50 @@
+@import '~terra-mixins';
+
+.terraClinical-SearchBar {
+  background-color: $terra-grey-5;
+  display: inline-flex;
+  justify-content: start;
+  padding: 0.714rem;
+  width: 100%;
+
+  .terraClinical-SearchBar-input {
+    @include terra-border-radius-start(0.286em);
+    @include terra-border-radius-end(0);
+
+    appearance: textfield;
+    background-color: $terra-white;
+    border: 1px solid $terra-grey-15;
+    border-right: 0.5px;
+    flex: 1 1 auto;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.4285714285714286rem;
+    margin: 0;
+
+    // This is needed when the search bar is used in another wrapper that uses flexbox so that the search bar doesn't
+    //  overlap with it's sibling in firefox.
+    min-width: 0;
+
+    padding: 0.286rem;
+    width: 100%;
+  }
+
+  .terraClinical-SearchBar-button {
+    @include terra-border-radius-start(0);
+    @include terra-border-radius-end(0.286em);
+
+    border: 1px solid $terra-grey-15;
+    display: inline-block;
+    flex: 0 0 auto;
+    margin: 0;
+  }
+}
+
+.terraClinical-SearchBar-input::-webkit-search-cancel-button {
+  appearance: searchfield-cancel-button !important;
+}
+
+.terraClinical-SearchBar-input::-webkit-search-decoration {
+  // Get rid of extra left-padding getting added in Safari
+  appearance: none;
+}
