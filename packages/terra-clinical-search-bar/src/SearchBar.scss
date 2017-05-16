@@ -1,10 +1,7 @@
 @import '~terra-mixins';
 
 .terraClinical-SearchBar {
-  background-color: $terra-grey-5;
-  display: inline-flex;
-  justify-content: start;
-  padding: 0.714rem;
+  display: flex;
   width: 100%;
 
   .terraClinical-SearchBar-input {
@@ -12,7 +9,6 @@
     @include terra-border-radius-end(0);
 
     appearance: textfield;
-    background-color: $terra-white;
     border: 1px solid $terra-grey-15;
     border-right: 0.5px;
     flex: 1 1 auto;
@@ -41,7 +37,7 @@
 }
 
 .terraClinical-SearchBar-input::-webkit-search-cancel-button {
-  appearance: searchfield-cancel-button !important;
+  appearance: searchfield-cancel-button;
 }
 
 .terraClinical-SearchBar-input::-webkit-search-decoration {

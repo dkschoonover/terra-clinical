@@ -1,14 +1,14 @@
 exports[`Snapshots renders a basic search bar 1`] = `
 <div
-  className="field-input terra-SearchBar">
+  className="terraClinical-SearchBar">
   <input
-    className="terra-SearchBar-input"
+    className="terraClinical-SearchBar-input"
     onChange={[Function]}
     placeholder=""
     type="search"
     value="" />
   <Button
-    className="terra-SearchBar-button"
+    className="terraClinical-SearchBar-button"
     isBlock={false}
     isCompact={false}
     isDisabled={false}
@@ -25,15 +25,15 @@ exports[`Snapshots renders a basic search bar 1`] = `
 
 exports[`Snapshots renders a search bar with a placeholder 1`] = `
 <div
-  className="field-input terra-SearchBar">
+  className="terraClinical-SearchBar">
   <input
-    className="terra-SearchBar-input"
+    className="terraClinical-SearchBar-input"
     onChange={[Function]}
     placeholder="Test"
     type="search"
     value="" />
   <Button
-    className="terra-SearchBar-button"
+    className="terraClinical-SearchBar-button"
     isBlock={false}
     isCompact={false}
     isDisabled={false}

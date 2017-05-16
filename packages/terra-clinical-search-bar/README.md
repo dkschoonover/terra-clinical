@@ -4,7 +4,7 @@
 [![NPM version](http://img.shields.io/npm/v/terra-clinical-search-bar.svg)](https://www.npmjs.org/package/terra-clinical-search-bar)
 [![Build Status](https://travis-ci.org/cerner/terra-core.svg?branch=master)](https://travis-ci.org/cerner/terra-core)
 
-{insert description}
+A search bar component with an input and a search button that automatically performs a search action after user input.
 
 - [Getting Started](#getting-started)
 - [Documentation](https://github.com/cerner/terra-core/tree/master/packages/terra-clinical-search-bar/docs)

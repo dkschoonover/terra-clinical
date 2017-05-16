@@ -1,6 +1,6 @@
 # Terra Clinical Search Bar
 
-{insert description}
+A search bar component with an input and a search button that automatically performs a search action after user input.
 
 ## Getting Started
 
